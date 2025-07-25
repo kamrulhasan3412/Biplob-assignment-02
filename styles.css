@@ -134,6 +134,44 @@ nav ul li a{
 }
 
 
+/* Flower Store section  */
+
+.flower-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 60px;
+    margin-top: 180px;
+    margin-bottom: 133px;
+
+}
+.flower-description div{
+   flex: 1;
+}
+.flower-description img{
+    width: 100%;  
+}
+.flower-description h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1.00);
+}
+.flower-list li{
+    font-size: 1.38rem;
+    color: rgba(0, 0, 0, 0.50);
+    list-style-type: disc;
+}
+.middle-li{
+    padding: 20px 0;
+}
+.badge{
+    margin-top: -580px;
+    margin-left: -160px;
+}
+
+
+
 .hide-item{
     display: none;
 }
@@ -191,9 +229,24 @@ nav ul li a{
     }
     .card button{
         padding: 20px;
+    }    
+
+    /* flower store section  */
+
+    .badge{
+        display: none;
     }
+    .flower-description{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
     
-    
+
+    }
+    .flower-list{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
 }
 
 

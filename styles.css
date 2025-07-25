@@ -200,7 +200,7 @@ nav ul li a{
 .special-card-1{
     width: 367px;
     height: 201px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/deal-bloom.png') no-repeat center center / cover;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/deal-bloom.png') no-repeat center center / cover;
     background-color: rgba(200, 200, 200, 1.00);
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,7 +216,7 @@ nav ul li a{
 .special-card-2{
     width: 367px;
     height: 197px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/deal-ana.png') no-repeat center center / cover;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/deal-ana.png') no-repeat center center / cover;
     background-color: rgba(200, 200, 200, 1.00);
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,7 +232,7 @@ nav ul li a{
 .special-card-3{
     width: 753px;
     height: 423px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/deal-zabo.png') no-repeat center center / cover;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/deal-zabo.png') no-repeat center center / cover;
     background-color: rgba(200, 200, 200, 1.00);
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,7 +255,7 @@ nav ul li a{
 .subscribe-section{
     width: 100%;
     height: 533px;
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(./assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

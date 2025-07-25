@@ -170,6 +170,86 @@ nav ul li a{
     margin-left: -160px;
 }
 
+/* Latest  Deal section  */
+.deal-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.deal-title h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.deal-title p{
+    font-size: 1.38rem;
+    margin: 16px 126px 0 126px;
+}
+.special-cards{
+    display: flex;
+    gap: 28px;
+    margin-top: 121px;
+    margin-bottom: 120px;
+}
+.double-card{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.special-card-1{
+    width: 367px;
+    height: 201px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/deal-bloom.png') no-repeat center center / cover;
+    background-color: rgba(200, 200, 200, 1.00);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.special-card-2{
+    width: 367px;
+    height: 197px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/deal-ana.png') no-repeat center center / cover;
+    background-color: rgba(200, 200, 200, 1.00);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.special-card-3{
+    width: 753px;
+    height: 423px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/deal-zabo.png') no-repeat center center / cover;
+    background-color: rgba(200, 200, 200, 1.00);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.special-cards a{
+    border-bottom: 3px solid white;
+}
+
 
 
 .hide-item{
@@ -247,6 +327,22 @@ nav ul li a{
         padding-left: 20px;
         padding-right: 0px;
     }
+
+    /* leatest deal  */
+   .special-cards{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .special-card-3{
+    width: 367px;
+    height: 201px;
+    font-size: 20px;
+   }
+        
+    .deal-title p{
+        margin: 20px;
+    }
+    
 }
 
 

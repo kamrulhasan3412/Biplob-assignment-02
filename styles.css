@@ -87,8 +87,62 @@ nav ul li a{
 }
 
 
+/* our plants section  */
+
+.our-plants{
+    margin-top: 106px;
+    margin-bottom: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.our-plants h2{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 530px 0 340px;
+}
+.our-plants p{
+    font-size: 1.38rem;
+    margin:16px 126px 0 126px;
+}
+.card{
+    width: 270px;
+}
+.card h2{
+    font-size: 1.38rem;
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    margin: 30px 69px 20px 69px;
+}
+.prize{
+    font-size: 1.38rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1.00);
+    text-align: center;
+    margin: 0 94.5px 30px 94.5px;
+}
+.card button{
+    width: 100%;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgba(233, 90, 8, 1.00);
+    margin-bottom: 30px;
+    padding: 19px 80px;
+}
+
+
+.hide-item{
+    display: none;
+}
+
 /* Responsive media query */
+
 @media screen and (max-width: 576px) {
+
+    /* navbar and banner  */
     nav{
         margin: 67px 16px 28px 16px ;
     }
@@ -106,4 +160,40 @@ nav ul li a{
         width: 100%;
 
     }
+
+    /* our plants section  */
+
+    .hide-card{
+        display: none;
+    }
+    .our-plants{
+        margin: 0 auto;
+    }
+    .our-plants h2{
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .our-plants p{
+        margin: 16px 28.5px 0 28.5px;
+    }
+    .card-container{
+        margin: 20px ;
+    }
+    .card{
+        width: 100%;
+    }
+    .card h2{
+        margin: 30px 20px 10px 20px;
+    }
+    .prize{
+        margin: 0 40px 30px 40px;
+    }
+    .card button{
+        padding: 20px;
+    }
+    
+    
 }
+
+
